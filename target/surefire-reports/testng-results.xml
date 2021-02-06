@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5846" started-at="2021-01-30T16:32:48Z" finished-at="2021-01-30T16:32:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5846" started-at="2021-01-30T16:32:48Z" finished-at="2021-01-30T16:32:54Z">
+      <class name="exceldataprovider.TestNGDataProviderDemo">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:exceldataprovider.TestNGDataProviderDemo@13c10b87]" name="launchBrowser" is-config="true" duration-ms="3877" started-at="2021-01-30T16:32:48Z" finished-at="2021-01-30T16:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:exceldataprovider.TestNGDataProviderDemo@13c10b87]" name="login" duration-ms="516" started-at="2021-01-30T16:32:53Z" data-provider="getData" finished-at="2021-01-30T16:32:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:exceldataprovider.TestNGDataProviderDemo@13c10b87]" name="login" duration-ms="325" started-at="2021-01-30T16:32:53Z" data-provider="getData" finished-at="2021-01-30T16:32:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pqr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:exceldataprovider.TestNGDataProviderDemo@13c10b87]" name="login" duration-ms="280" started-at="2021-01-30T16:32:54Z" data-provider="getData" finished-at="2021-01-30T16:32:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tuv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- exceldataprovider.TestNGDataProviderDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
